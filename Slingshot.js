@@ -23,15 +23,13 @@ class SlingShot{
     }
 
     display(){
-        image(this.hi, 200, 190)
-        image(this.hello, 172, 182)
         if(this.sling.bodyA){
             var pointA = this.sling.bodyA.position;
             var pointB = this.pointB;
             push()
             if (z = 1){
-                if (mouseX<172){
-                  x = 3*(mouseX/20)
+                if (mouseX<120){
+                  x = 3*(mouseX/50)
                 }
             }
             strokeWeight(x);
