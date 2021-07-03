@@ -102,7 +102,7 @@ var Axes = _dereq_('../geometry/Axes');
                 group: 0
             },
             slop: 0.05,
-            timeScale: 1,
+            timeScale: 0,
             render: {
                 visible: true,
                 opacity: 1,

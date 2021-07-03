@@ -16,22 +16,25 @@ class SlingShot{
 
     fly(){
         this.sling.bodyA = cheese.body;
-        z = 0
+        z = -1
     }
     fall(){
         this.sling.bodyA = null;
     }
-
+    add(){
+        z = z + 1
+    }
+    return(){
+        strokeWeight(9.6)
+    }
     display(){
-        image(this.hi, 200, 190)
-        image(this.hello, 172, 182)
         if(this.sling.bodyA){
             var pointA = this.sling.bodyA.position;
             var pointB = this.pointB;
             push()
-            if (z = 1){
-                if (mouseX<172){
-                  x = 3*(mouseX/20)
+            if (mouseX<120){
+                if (z == 1){
+                  x = 4*(mouseX/50)
                 }
             }
             strokeWeight(x);
